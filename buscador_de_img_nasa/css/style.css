@@ -1,0 +1,15 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+#contenedor{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card-text{
+  max-height: 150px;
+  overflow: hidden;
+}
